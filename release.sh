@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-VERSION=$(python -c "from tendo.version import __version__ ; print __version__")
+VERSION=$(python -c "from tendo import __version__ ; print __version__")
 echo Preparing to release version $VERSION
 
 
